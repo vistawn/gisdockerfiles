@@ -1,0 +1,1 @@
+docker build -t 'gdal_cad:0.1' .

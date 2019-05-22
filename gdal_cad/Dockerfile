@@ -1,4 +1,4 @@
-FROM python_gdal:dev
+FROM python_gdal:0.1
 
 ADD TeighaFileConverter4.7.deb /
 RUN apt-get update && apt-get -y install xvfb qtbase5-dev \

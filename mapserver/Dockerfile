@@ -21,4 +21,4 @@ RUN a2enmod cgid \
     && echo "ServerName localhost" >> /etc/apache2/apache2.conf \
     && cp /usr/lib/cgi-bin/mapserv /usr/lib/cgi-bin/mapserv.fcgi
 
-CMD [ "apache2ctl", "-D", "FOREGROUND"]
+CMD [ "apachectl", "-D", "FOREGROUND"]

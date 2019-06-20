@@ -8,7 +8,7 @@ RUN apt-get update -q -y \
     && apt-get install -y software-properties-common \
     && add-apt-repository ppa:ubuntugis/ppa \
     && apt-get update -y \
-    && apt-get install -y wget python3 python3-pip gdal-bin python3-gdal \
+    && apt-get install -y wget python3 python3-pip gdal-bin rar unrar python3-gdal \
     && ln -s /usr/bin/python3 /usr/bin/python \
     && ln -s /usr/bin/pip3 /usr/bin/pip \
     && apt-get autoclean \
